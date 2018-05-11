@@ -1,0 +1,9 @@
+"0","boone <- read_csv(""boone_growth_records.csv"")"
+"2","Parsed with column specification:
+cols(
+  days_old = col_integer(),
+  wt_lbs = col_double(),
+  ht_front_in = col_character(),
+  ht_back_in = col_character()
+)
+"
