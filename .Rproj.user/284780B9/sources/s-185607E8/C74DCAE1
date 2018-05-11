@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526055614295.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C74DCAE1",
+    "lastKnownWriteTime" : 1526055641,
+    "last_content_update" : 1526055641307,
+    "path" : "~/Documents/Boone/plot_height.R",
+    "project_path" : "plot_height.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
