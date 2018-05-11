@@ -31,3 +31,111 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git add -A
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git commit
+[?2004h[master 0daa5e7] Weight plot and init
+ 24 files changed, 607 insertions(+)
+ create mode 100644 .Rproj.user/284780B9/console06/9B345FB5
+ create mode 100644 .Rproj.user/284780B9/console06/9B345FB5.env
+ create mode 100644 .Rproj.user/284780B9/console06/INDEX001
+ create mode 100644 .Rproj.user/284780B9/sources/prop/A8DF9094
+ create mode 100644 .Rproj.user/284780B9/sources/prop/E8903294
+ create mode 100644 .Rproj.user/284780B9/sources/prop/INDEX
+ create mode 100644 .Rproj.user/284780B9/sources/s-185607E8/C74DCAE1
+ create mode 100644 .Rproj.user/284780B9/sources/s-185607E8/C74DCAE1-contents
+ create mode 100644 .Rproj.user/284780B9/sources/s-185607E8/FD8DC633
+ create mode 100644 .Rproj.user/284780B9/sources/s-185607E8/FD8DC633-contents
+ create mode 100644 .Rproj.user/284780B9/sources/s-185607E8/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/1213114B-boone_growth_records/1/284780B9185607E8/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/1213114B-boone_growth_records/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/1213114B-boone_growth_records/1/s/ck852gqyswbpu/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/1213114B-boone_growth_records/1/s/csetup_chunk/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/1213114B-boone_growth_records/1/s/csnmwjoh0pf5l/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 Boone.Rproj
+ create mode 100644 boone_growth_records.Rmd
+ create mode 100644 boone_growth_records.csv
+ create mode 100644 boone_growth_records.html
+ create mode 100644 boone_growth_records.xlsx
+ create mode 100644 plot_height.R
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git push
+Counting objects: 36, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/27)   Compressing objects:   7% (2/27)   Compressing objects:  11% (3/27)   Compressing objects:  14% (4/27)   Compressing objects:  18% (5/27)   Compressing objects:  22% (6/27)   Compressing objects:  25% (7/27)   Compressing objects:  29% (8/27)   Compressing objects:  33% (9/27)   Compressing objects:  37% (10/27)   Compressing objects:  40% (11/27)   Compressing objects:  44% (12/27)   Compressing objects:  48% (13/27)   Compressing objects:  51% (14/27)   Compressing objects:  55% (15/27)   Compressing objects:  59% (16/27)   Compressing objects:  62% (17/27)   Compressing objects:  66% (18/27)   Compressing objects:  70% (19/27)   Compressing objects:  74% (20/27)   Compressing objects:  77% (21/27)   Compressing objects:  81% (22/27)   Compressing objects:  85% (23/27)   Compressing objects:  88% (24/27)   Compressing objects:  92% (25/27)   Compressing objects:  96% (26/27)   Compressing objects: 100% (27/27)   Compressing objects: 100% (27/27), done.
+Writing objects:   2% (1/36)   Writing objects:   5% (2/36)   Writing objects:   8% (3/36)   Writing objects:  11% (4/36)   Writing objects:  13% (5/36)   Writing objects:  16% (6/36)   Writing objects:  19% (7/36)   Writing objects:  22% (8/36)   Writing objects:  25% (9/36)   Writing objects:  27% (10/36)   Writing objects:  30% (11/36)   Writing objects:  33% (12/36)   Writing objects:  36% (13/36)   Writing objects:  38% (14/36)   Writing objects:  41% (15/36)   Writing objects:  44% (16/36)   Writing objects:  47% (17/36)   Writing objects:  50% (18/36)   Writing objects:  52% (19/36)   Writing objects:  55% (20/36)   Writing objects:  58% (21/36)   Writing objects:  61% (22/36)   Writing objects:  63% (23/36)   Writing objects:  66% (24/36)   Writing objects:  69% (25/36)   Writing objects:  72% (26/36)   Writing objects:  75% (27/36)   Writing objects:  77% (28/36)   Writing objects:  80% (29/36)   Writing objects:  83% (30/36)   Writing objects:  86% (31/36)   Writing objects:  88% (32/36)   Writing objects:  91% (33/36)   Writing objects:  94% (34/36)   Writing objects:  97% (35/36)   Writing objects: 100% (36/36)   Writing objects: 100% (36/36), 312.43 KiB | 3.03 MiB/s, done.
+Total 36 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/carter-allen/Boone.git
+   415d569..0daa5e7  master -> master
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ ls
+Boone.Rproj			boone_growth_records.html
+README.md			boone_growth_records.xlsx
+boone_growth_records.Rmd	plot_height.R
+boone_growth_records.csv
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5[m
+	[31mmodified:   .Rproj.user/284780B9/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/284780B9/sources/prop/E8903294[m
+	[31mmodified:   .Rproj.user/284780B9/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/284780B9/sources/s-185607E8/FD8DC633[m
+	[31mmodified:   .Rproj.user/284780B9/sources/s-185607E8/FD8DC633-contents[m
+	[31mmodified:   boone_growth_records.Rmd[m
+	[31mmodified:   boone_growth_records.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/284780B9/sources/prop/7C922CE1[m
+	[31m.Rproj.user/284780B9/sources/s-185607E8/F87E5D98[m
+	[31m.Rproj.user/284780B9/sources/s-185607E8/F87E5D98-contents[m
+	[31mboone.jpg[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git add -A[K[K[K[K[K[Kpull
+remote: Counting objects: 7, done.[K
+remote: Compressing objects:  20% (1/5)   [Kremote: Compressing objects:  40% (2/5)   [Kremote: Compressing objects:  60% (3/5)   [Kremote: Compressing objects:  80% (4/5)   [Kremote: Compressing objects: 100% (5/5)   [Kremote: Compressing objects: 100% (5/5), done.[K
+remote: Total 7 (delta 3), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  14% (1/7)   Unpacking objects:  28% (2/7)   Unpacking objects:  42% (3/7)   Unpacking objects:  57% (4/7)   Unpacking objects:  71% (5/7)   Unpacking objects:  85% (6/7)   Unpacking objects: 100% (7/7)   Unpacking objects: 100% (7/7), done.
+From https://github.com/carter-allen/Boone
+   0daa5e7..89e4b01  master     -> origin/master
+Updating 0daa5e7..89e4b01
+Fast-forward
+ _config.yml | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 _config.yml
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git statuis[K[Ks
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5[m
+	[31mmodified:   .Rproj.user/284780B9/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/284780B9/sources/prop/E8903294[m
+	[31mmodified:   .Rproj.user/284780B9/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/284780B9/sources/s-185607E8/FD8DC633[m
+	[31mmodified:   .Rproj.user/284780B9/sources/s-185607E8/FD8DC633-contents[m
+	[31mmodified:   boone_growth_records.Rmd[m
+	[31mmodified:   boone_growth_records.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/284780B9/sources/prop/7C922CE1[m
+	[31m.Rproj.user/284780B9/sources/s-185607E8/F87E5D98[m
+	[31m.Rproj.user/284780B9/sources/s-185607E8/F87E5D98-contents[m
+	[31mboone.jpg[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git pull
+Already up to date.
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git p[Kadd -A
