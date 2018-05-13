@@ -249,3 +249,60 @@ remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5) 
 To https://github.com/carter-allen/Boone.git
    c03c48f..d65a67d  master -> master
 got[K[Kit s[Kass [K[K[Kdd =[K-A
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git comit
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git com,[Kmit
+[?2004h[master 9bae12c] correction
+ 15 files changed, 22 insertions(+), 131 deletions(-)
+ rewrite .Rproj.user/284780B9/console06/INDEX001 (100%)
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/C74DCAE1
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/C74DCAE1-contents
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/F81DF345
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/F81DF345-contents
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/F87E5D98
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/F87E5D98-contents
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/FD8DC633
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/FD8DC633-contents
+ delete mode 100644 .Rproj.user/284780B9/sources/s-185607E8/lock_file
+ create mode 100644 .gitignore
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git push
+Counting objects: 13, done.
+Delta compression using up to 8 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 97.17 KiB | 4.22 MiB/s, done.
+Total 13 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/carter-allen/Boone.git
+   d65a67d..9bae12c  master -> master
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5[m
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5.env[m
+	[31mmodified:   .Rproj.user/284780B9/console06/INDEX001[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5[m
+	[31mmodified:   .Rproj.user/284780B9/console06/9B345FB5.env[m
+	[31mmodified:   .Rproj.user/284780B9/console06/INDEX001[m
+	[31mmodified:   boone_growth_records.csv[m
+	[31mmodified:   weight_plot.html[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git add -A
