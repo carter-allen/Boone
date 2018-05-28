@@ -626,3 +626,17 @@ remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11
 To https://github.com/carter-allen/Boone.git
    75054e5..346aee9  master -> master
 [KCarters-MacBook-Pro:Boone carter$ git add  [K- A[K[KA
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git commiy[Kt
+[?2004h[master 97730dd] May 26, 2018
+ 6 files changed, 24 insertions(+), 8 deletions(-)
+ rewrite .Rproj.user/284780B9/console06/INDEX001 (100%)
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git push
+Counting objects: 13, done.
+Delta compression using up to 8 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 96.34 KiB | 5.35 MiB/s, done.
+Total 13 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/carter-allen/Boone.git
+   346aee9..97730dd  master -> master
+git add [K -A
