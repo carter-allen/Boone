@@ -788,3 +788,17 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git add -A
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git o[Kcommit -m "Sept. 16'[K"
+[master 5125805] Sept. 16
+ 5 files changed, 35 insertions(+), 5 deletions(-)
+ rewrite .Rproj.user/284780B9/console06/INDEX001 (74%)
+]0;~/Documents/BooneCarters-MacBook-Pro:Boone carter$ git push
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 131.75 KiB | 5.99 MiB/s, done.
+Total 10 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To https://github.com/carter-allen/Boone.git
+   7cd77c8..5125805  master -> master
+[KCarters-MacBook-Pro:Boone carter$ git add -A
